@@ -15,7 +15,7 @@
         android:id="@+id/imageView3"
         android:layout_width="280dp"
         android:layout_height="500dp"
-        android:paddingTop="160dp"
+        android:layout_marginTop="120dp"
         android:src="@drawable/viaje"
 
 
@@ -25,19 +25,18 @@
         android:id="@+id/txtRuta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="60dp"
-        android:text="Rutas"
-        android:paddingLeft="60dp"
-        android:paddingTop="50dp"
-        android:layout_margin="5dp"
+        android:textSize="70dp"
+        android:text="RUTAS"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
         />
     <TextView
         android:id="@+id/txtMzt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="60dp"
+        android:textSize="70dp"
         android:text="MZT"
-        android:paddingLeft="70dp"
+        android:paddingLeft="60dp"
         android:paddingTop="100dp"
         android:layout_margin="5dp"
         />
