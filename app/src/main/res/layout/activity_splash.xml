@@ -8,14 +8,14 @@
     android:paddingBottom="16dp"
     android:paddingLeft="64dp"
     android:paddingRight="64dp"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/monosbichisphot"
     tools:context=".SplashActivity">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="280dp"
         android:layout_height="500dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="400dp"
         android:src="@drawable/viaje"
 
 
@@ -27,8 +27,9 @@
         android:layout_height="wrap_content"
         android:textSize="70dp"
         android:text="RUTAS"
-        android:paddingLeft="25dp"
+        android:layout_centerHorizontal="true"
         android:paddingTop="15dp"
+        android:textColor="@color/letraSplash"
         />
     <TextView
         android:id="@+id/txtMzt"
@@ -36,9 +37,11 @@
         android:layout_height="wrap_content"
         android:textSize="70dp"
         android:text="MZT"
-        android:paddingLeft="60dp"
         android:paddingTop="100dp"
         android:layout_margin="5dp"
+        android:textColor="@color/letraSplash"
+        android:layout_centerHorizontal="true"
+
         />
 
 </RelativeLayout>
